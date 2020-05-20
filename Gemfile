@@ -5,7 +5,7 @@
 source "https://rubygems.org"
 
 gem 'fastlane'
-gem 'cocoapods'
+gem 'cocoapods', '>= 1.5.3'
 gem 'danger'
 gem 'danger-swiftlint'
 
