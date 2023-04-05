@@ -4,9 +4,9 @@
 
 source "https://rubygems.org"
 
-gem 'fastlane'
-gem 'cocoapods'
-gem 'danger'
+gem 'fastlane', '>= 2.127.2'
+gem 'cocoapods', '>= 1.11.0'
+gem 'danger', '>= 6.0.0'
 gem 'danger-swiftlint'
 
 plugins_path = File.join(File.dirname(__FILE__), 'fastlane', 'Pluginfile')
